@@ -1,0 +1,42 @@
+body {
+  background-color: #f5d9d5;
+  font-family: 'Nunito', sans-serif;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ea1c2c;
+  font-size: 1.5rem;
+}
+
+.headingGroup {
+  color: white;
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.headingGroup span {
+  color: #ea1c2c;
+}
+
+@media (max-width: 1200px) {
+  .headingGroup {
+    font-size: 3rem;
+  } 
+}
+
+.lolli {
+  margin: 0 auto;
+}
