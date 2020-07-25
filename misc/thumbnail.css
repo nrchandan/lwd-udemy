@@ -1,0 +1,15 @@
+.navbar {
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  background: #93b5cf;
+}
+
+.square {
+  width: inherit;
+}
+
+.row {
+  overflow: hidden;
+}
