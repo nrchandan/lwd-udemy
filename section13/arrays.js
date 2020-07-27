@@ -19,18 +19,18 @@ function isUniforum (arr) {
 
 function sumArray (arr) {
   let result = 0
-  // arr.forEach((num) => {
-  //   result += num
-  // })
-  myForEach(arr, (num) => {
+  arr.myForEach((num) => {
     result += num
   })
+  // myForEach(arr, (num) => {
+  //   result += num
+  // })
   return result
 }
 
-function myForEach (arr, func) {
-  for (let i = 0; i < arr.length; i++) {
-    func(arr[i])
+Array.prototype.myForEach = function (func) {
+  for (let i = 0; i < this.length; i++) {
+    func(this[i])
   }
 }
 
