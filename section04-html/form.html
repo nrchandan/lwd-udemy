@@ -6,15 +6,15 @@
 <body>
 	<h1>Register</h1>
 <form>
-	<div>
+	<div id="name">
 		<label for="firstname">First Name:</label>
 		<input id="firstname" type="text" name="firstname" placeholder="John" required>
 		
 		<label for="lastname">Last Name:</label>
-		<input id="lastname" type="text" name="lastname" placeholder="Smith" required>
+		<input id="lastname" type="text" name="lastname" placeholder="Doe" required>
 	</div>
 
-	<div>
+	<div id="gender">
 		<label for="male">Male</label>
 		<input id="male" type="radio" name="gender" value="male">
 		<label for="female">Female</label>
@@ -23,9 +23,9 @@
 		<input id="other" type="radio" name="gender" value="other">
 	</div>
 
-	<div>
+	<div id="login">
 		<label for="email">Email: </label>
-		<input id="email" type="email" name="email" placeholder="your email" required>
+		<input id="email" type="email" name="email" placeholder="john.doe@example.com" required>
 
 		<label for="password">Password: </label>
 		<input id="password" type="password" name="password" minlength="5" maxlength="10" placeholder="your password" required>

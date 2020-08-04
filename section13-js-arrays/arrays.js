@@ -4,7 +4,7 @@ function printReverse (arr) {
   }
 }
 
-function isUniforum (arr) {
+function isUniform (arr) {
   if (arr.length <= 1) {
     return true
   }
@@ -35,3 +35,7 @@ function max (arr) {
   }
   return result
 }
+
+const singleDigitNumbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+console.log('printReverse(singleDigitNumbers)')
+printReverse(singleDigitNumbers)
