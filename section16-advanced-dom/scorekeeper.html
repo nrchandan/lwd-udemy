@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Score Keeper</title>
+  <link rel="stylesheet" href="scorekeeper.css">
+</head>
+<body>
+  <h1><span id="playerOneScore">0</span> to <span id="playerTwoScore">0</span></h1>
+  <p>Playing to: <span id="playingTo">5</span></p>
+  <div>
+    <input type="number" name="score" id="score" onchange="changeWinningScore(value)">
+    <button onclick="playerOneScores()">Player One</button>
+    <button onclick="playerTwoScores()">Player Two</button>
+    <button onclick="resetGame()">Reset</button>
+  </div>
+  <script src="scorekeeper.js"></script>
+</body>
+</html>
