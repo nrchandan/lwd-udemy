@@ -1,0 +1,31 @@
+body {
+  background-color: #232323;
+}
+
+.header {
+  background-color: steelblue;
+  color: white;
+}
+
+.menu {
+  background-color: white;
+  color: steelblue;
+}
+
+.menu-item:hover, .menu-item-active {
+  background-color: steelblue;
+  color: white;
+}
+
+.menu .col-4:nth-of-type(2) {
+  text-align: right;
+}
+
+.choice {
+  width: 30%;
+  padding-bottom: 30%;
+  background-color: pink;
+  margin: 1.66%;
+  float: left;
+  border-radius: 30px;
+}
