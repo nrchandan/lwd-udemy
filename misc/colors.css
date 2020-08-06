@@ -1,0 +1,80 @@
+#item-1 {
+  height: 30px;
+  background-color: black;
+}
+
+#item-2 {
+  height: 30px;
+  background-color: yellow;
+}
+
+#item-3 {
+  height: 30px;
+  background-color: aqua;
+}
+
+#item-4 {
+  height: 30px;
+  background-color: green;
+}
+
+#item-5 {
+  height: 30px;
+  background-color: red;
+}
+
+#item-6 {
+  height: 30px;
+  background-color: blue;
+}
+
+#item-7 {
+  height: 30px;
+  background-color: purple;
+}
+
+#item-8 {
+  height: 30px;
+  background-color: lightpink;
+}
+
+#item-9 {
+  height: 30px;
+  background-color: orange;
+}
+
+#item-10 {
+  height: 30px;
+  background-color: grey;
+}
+
+#item-11 {
+  height: 30px;
+  background-color: white;
+}
+
+#item-12 {
+  height: 30px;
+  background-color: brown;
+}
+
+
+#top-blank {
+  height: 100px;
+  background-color: #FBE1E0;
+}
+
+#main-unit {
+  height: 400px;
+  background-color: #E5777F;
+}
+
+#bottom {
+  height: 100px;
+  background-color: lightgray;
+}
+
+#main-unit {
+  color: white;
+  font-family: 'Recursive', sans-serif;
+}
