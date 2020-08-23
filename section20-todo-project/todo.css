@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(to right, #2bc0e4, #d3e7ca);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background: #2980b9;
+  color: white;
+  padding: 10px 10px 10px 20px;
+  font-size: 1.3em;
+  box-sizing: border-box;
+}
+
+tr:nth-of-type(1) td {
+  padding: 0;
+}
+
+td {
+  padding: 10px 10px 10px 20px;
+  color: #666666;
+}
+
+.todo {
+  padding: 10px 10px 10px 20px;
+}
+
+tr:nth-child(odd) {
+  background: #f6f6f6;
+}
+
+tr:nth-child(even) {
+  background: #fff;
+}
+
+input {
+  outline: none;
+  padding: 15px 10px 15px 20px;
+  border: none;
+  width: 100%;
+  background-color: #f6f6f6;
+  font-size-adjust: 1.25em;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-radius: 0;
+  border: 3px solid #2980b9;
+  box-sizing: border-box;
+}
